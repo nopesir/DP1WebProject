@@ -1,0 +1,193 @@
+@font-face {
+    font-family: Sansation_Light;
+    src: url(../library/fonts/Poppins.woff2);
+ }
+
+
+body {
+    font-family: Sansation_Light;
+    background: #fafafa;
+}
+
+p {
+    font-family: Sansation_Light;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: rgb(138, 138, 138);
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.navbar {
+    padding: 15px 10px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+i, span {
+    display: inline-block;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+.wrapper {
+    display: flex;
+    align-items: stretch;
+    min-width: 100%;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background: rgb(95, 53, 53);
+    color: #fff;
+}
+
+
+#sidebar ul li a {
+    text-align: left;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: rgb(95, 53, 53);
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(95, 53, 53);
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+#sidebar ul li a:hover {
+    color: rgb(95, 53, 53);
+    background: #fff;
+}
+
+
+#sidebar ul li a i {
+    margin-right: 10px;
+}
+
+#sidebar ul li.active {
+    color: rgb(95, 53, 53);
+    background: #ffffff;
+}
+
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: rgb(95, 53, 53);
+}
+
+ul.CTAs {
+    padding: 20px;
+}
+
+ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+a.login {
+    background: #fff;
+    color: rgb(95, 53, 53);
+}
+
+
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+#content {
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+    width: 100%;
+}
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+@media (max-width: 768px) {
+    #sidebar {
+        min-width: 80px;
+        max-width: 80px;
+        text-align: center;
+        margin-left: -80px !important ;
+    }
+}
+
+/* ---------------------------------------------------
+    BUTTONS
+----------------------------------------------------- */
+.btn.btn-primary {
+    background-color:  rgb(95, 53, 53);
+    color: #fff;
+    border: none;
+}
+
+.btn.btn-primary:hover {
+    background-color:  rgb(83, 49, 49);
+    border: none;
+}
+
+.btn.btn-success {
+    background-color:  rgb(63, 110, 62);
+    color: #fff;
+    border: none;
+}
+
+.btn.btn-success:hover {
+    background-color:  rgb(57, 100, 57);
+    border: none;
+}
+
+/* ---------------------------------------------------
+    OTHERS
+----------------------------------------------------- */
+
+.redalert {
+    color: red;
+}
+
+.greenalert {
+    color: green;
+}
+
+.yellowalert {
+    color: rgb(190, 190, 56);
+}
+
